@@ -2,7 +2,7 @@ package linkedList;
 
 public class Main {
 	public static void main(String[] args) {
-		LinkedList linkedList = new LinkedList(1);
+		LinkedList linkedList = new LinkedList();
 		
 		// append 
 		linkedList.append(3);
@@ -22,13 +22,12 @@ public class Main {
 		System.out.println("get node by index " + node.value);
 		linkedList.insert(1, 4);
 		// reverse
-		linkedList.reverse();
+//		linkedList.reverse();
 		// metadata 
 		linkedList.getHead();
 		linkedList.getHeadNext();
 		linkedList.getTail();
 		linkedList.getTailPrevious();
-		linkedList.getLength();
 		linkedList.printList();
 	}
 }

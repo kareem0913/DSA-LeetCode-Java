@@ -1,17 +1,17 @@
 package linkedList;
 
-public class LinkedList {
+public class LinkedList{
 
 	private Node head;
 	private Node tail;
 	private int length;
 
-	public LinkedList(int value) {
-		Node newNode = new Node(value);
-		head = newNode;
-		tail = newNode;
-		length = 1;
-	}
+//	public LinkedList(int value) {
+//		Node newNode = new Node(value);
+//		head = newNode;
+//		tail = newNode;
+//		length = 1;
+//	}
 
 	public void append(int vlaue) {
 		Node newNode = new Node(vlaue);
@@ -168,8 +168,9 @@ public class LinkedList {
 		System.out.println("Tail Previous " + tail.previous.value);
 	}
 
-	public void getLength() {
-		System.out.println("length of linked list is " + length);
+	public int getLength() {
+		return length;
 	}
+	
 
 }
