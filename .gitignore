@@ -8,11 +8,11 @@
 ## IntelliJ IDEA
 .idea/ *.iml *.iws
 ## Eclipse
-.project .classpath .settings/
+.project
+.classpath6
+.settings/
 ## NetBeans
 nbproject/private/ build/ nbbuild/ dist/ nbdist/ .nbm/
-## VS Code
-.vscode/
 # Gradle files (if used)
 .gradle/ build/
 # Maven files (if used)
