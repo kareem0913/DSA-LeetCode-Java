@@ -2,8 +2,8 @@ package linkedList;
 
 public class LinkedList{
 
-	private Node head;
-	private Node tail;
+	protected Node head;
+	protected Node tail;
 	private int length;
 
 //	public LinkedList(int value) {
@@ -152,16 +152,16 @@ public class LinkedList{
 		}
 	}
 
-	public void getHead() {
-		System.out.println("Head: " + head.value);
+	public Node getHead() {
+		return head;
 	}
 
 	public void getHeadNext() {
 		System.out.println("Head Next " + head.next.value);
 	}
 
-	public void getTail() {
-		System.out.println("Tail: " + tail.value);
+	public Node getTail() {
+		return tail;
 	}
 
 	public void getTailPrevious() {

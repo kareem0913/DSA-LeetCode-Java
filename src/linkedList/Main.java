@@ -24,9 +24,7 @@ public class Main {
 		// reverse
 //		linkedList.reverse();
 		// metadata 
-		linkedList.getHead();
 		linkedList.getHeadNext();
-		linkedList.getTail();
 		linkedList.getTailPrevious();
 		linkedList.printList();
 	}
